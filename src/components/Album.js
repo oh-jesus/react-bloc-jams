@@ -97,7 +97,7 @@ class Album extends Component {
   }
 
   formatTime(sec){
-    if(sec == NaN){
+    if(sec === NaN){
       return "-:--"
     } else {
       return Math.floor(sec / 60) + ":" + Math.floor(sec % 60 ? sec % 60 : '00')
