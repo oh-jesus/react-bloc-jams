@@ -100,7 +100,14 @@ class Album extends Component {
     if(isNaN(sec)){
       return "-:--"
     } else {
-      return Math.floor(sec / 60) + ":" + Math.floor(sec % 60 ? sec % 60 : '00')
+      var min = Math.floor(sec/60);
+      var seconds = Math.floor(sec % 60);
+      let timer = min + ":";
+      if  (seconds < 10){
+        timer += "0"
+      }
+      timer += seconds
+      return timer
     }
   }
 
