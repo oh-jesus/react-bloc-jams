@@ -10,6 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <header>
+          <img src="/assets/images/bloc_jams_logo.png" className="logo" alt= "bloc jams logo" />
           <nav>
             <Link to='/'>Landing</Link>
             <Link to='/library'>Library</Link>

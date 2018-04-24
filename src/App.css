@@ -1,12 +1,18 @@
 .App {
+  font-family: "Arial Black", Gadget, sans-serif;
   text-align: center;
+  font-size: 20px;
+  background-color: #50E3C2;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.logo {
+  /* bloc_jams_logo: */
+color: linear-gradient(23deg, #C503F5 0%, #A06AA8 44%, #14FF00 100%);
+height: 130px;
 }
-
+.App nav {
+  padding: 10px;
+}
 .App-header {
   background-color: #666;
   height: 150px;
